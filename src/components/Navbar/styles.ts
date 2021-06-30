@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import * as jussiPallet from "../../variables";
+import {blackJussi, pinkJussi} from "../../variables";
 import searchIcon from "../../assets/icons/search.svg";
 
 export const Nav = styled.nav`
@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   a {
     order: 1;
     text-decoration: none;
-    color: ${jussiPallet.blackJussi};
+    color: ${blackJussi};
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
@@ -35,7 +35,7 @@ export const Input = styled.input`
   font-size: 16px;
   line-height: 24px;
   &::placeholder {
-    color: ${jussiPallet.pinkJussi};
+    color: ${pinkJussi};
   }
 `;
 

@@ -2,11 +2,11 @@
 
 exports[`Navbar should match snapshot 1`] = `
 <nav
-  className="sc-bdnxRM hiEFmr"
+  className="sc-bdnxRM gBOXHT"
 >
    
   <div
-    className="sc-dlnjwi cjudsu"
+    className="sc-dlnjwi bmkcnO"
   >
     <a
       href="https://jussi.com.br/services.html"
@@ -24,15 +24,15 @@ exports[`Navbar should match snapshot 1`] = `
     </a>
   </div>
   <div
-    className="sc-hKFxyN hFnUFj"
+    className="sc-hKFxyN gLWLBP"
   >
     <input
-      className="sc-gtsrHT gGnjNa"
+      className="sc-gtsrHT jVDMiC"
       placeholder="Buscar"
       type="search"
     />
     <div
-      className="sc-eCApnc cQHcgX"
+      className="sc-eCApnc hmDsgX"
     >
       <a
         href="/"

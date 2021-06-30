@@ -9,6 +9,7 @@ import {
 import shoppingCart from "../../assets/icons/shopping-cart.svg";
 
 const NavbarComponent: React.FC = () => {
+  
   const navbarLinks = [
     { url: "https://jussi.com.br/services.html", label: "Nossas soluções" },
     { url: "https://jussi.com.br/", label: "Conheça a Jüssi" },

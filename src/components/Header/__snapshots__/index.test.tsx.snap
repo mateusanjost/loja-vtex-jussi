@@ -13,43 +13,47 @@ exports[`Header should match snapshot 1`] = `
     />
   </div>
   <nav
-    className="sc-dlnjwi dJJCXy"
+    className="sc-dlnjwi gLcUzy"
   >
      
     <div
-      className="sc-eCApnc howTjG"
+      className="sc-eCApnc iqJnfW"
     >
       <a
         href="https://jussi.com.br/services.html"
-        rel="noreferrer noopener"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Nossas soluções
       </a>
       <a
         href="https://jussi.com.br/"
-        rel="noreferrer noopener"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Conheça a Jüssi
       </a>
     </div>
     <div
-      className="sc-jSFjdj cnusMS"
+      className="sc-jSFjdj boRPQS"
     >
       <input
-        className="sc-hKFxyN aigui"
+        className="sc-hKFxyN fjIaEa"
         placeholder="Buscar"
         type="search"
       />
       <div
-        className="sc-gKAaRy djnqAS"
+        className="sc-gKAaRy ofenq"
       >
         <a
           href="/"
-          target="_blank"
+          onClick={[Function]}
         >
-          Login
+          <a>
+            <div>
+                Login
+            </div>
+          </a>
         </a>
         <img
           alt="Shopping Cart - Jussi"

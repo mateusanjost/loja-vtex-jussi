@@ -10,14 +10,14 @@ exports[`Navbar should match snapshot 1`] = `
   >
     <a
       href="https://jussi.com.br/services.html"
-      rel="noreferrer noopener"
+      rel="noopener noreferrer"
       target="_blank"
     >
       Nossas soluções
     </a>
     <a
       href="https://jussi.com.br/"
-      rel="noreferrer noopener"
+      rel="noopener noreferrer"
       target="_blank"
     >
       Conheça a Jüssi
@@ -36,9 +36,13 @@ exports[`Navbar should match snapshot 1`] = `
     >
       <a
         href="/"
-        target="_blank"
+        onClick={[Function]}
       >
-        Login
+        <a>
+          <div>
+              Login
+          </div>
+        </a>
       </a>
       <img
         alt="Shopping Cart - Jussi"

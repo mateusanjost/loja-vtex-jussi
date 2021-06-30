@@ -16,21 +16,39 @@ exports[`Footer should match snapshot 1`] = `
   <div
     className="sc-dlnjwi TuFfO"
   >
-    <img
-      alt="Facebook Logo"
-      src="facebook1x.svg"
-      srcSet="facebook1x.svg, facebook2x.svg 2x"
-    />
-    <img
-      alt="Instagram Logo"
-      src="instagram1x.svg"
-      srcSet="instagram1x.svg, instagram2x.svg 2x"
-    />
-    <img
-      alt="Linkedin Company Logo"
-      src="linkedin1x.svg"
-      srcSet="linkedin1x.svg, linkedin2x.svg 2x"
-    />
+    <a
+      href="https://www.facebook.com/agencia.jussi/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Facebook Logo"
+        src="facebook1x.svg"
+        srcSet="facebook1x.svg, facebook2x.svg 2x"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/jussi/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Instagram Logo"
+        src="instagram1x.svg"
+        srcSet="instagram1x.svg, instagram2x.svg 2x"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/company/agencia-jussi"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Linkedin Company Logo"
+        src="linkedin1x.svg"
+        srcSet="linkedin1x.svg, linkedin2x.svg 2x"
+      />
+    </a>
   </div>
 </footer>
 `;

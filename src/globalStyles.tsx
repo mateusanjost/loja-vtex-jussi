@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -7,5 +7,5 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Barlow";
   }
 `;
- 
+
 export default GlobalStyle;

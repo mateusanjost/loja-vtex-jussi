@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should match snapshot 1`] = `
+<nav
+  className="sc-bdnxRM hiEFmr"
+>
+   
+  <div
+    className="sc-dlnjwi cjudsu"
+  >
+    <a
+      href="https://jussi.com.br/services.html"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      Nossas soluções
+    </a>
+    <a
+      href="https://jussi.com.br/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      Conheça a Jüssi
+    </a>
+  </div>
+  <div
+    className="sc-hKFxyN hFnUFj"
+  >
+    <input
+      className="sc-gtsrHT gGnjNa"
+      placeholder="Buscar"
+      type="search"
+    />
+    <div
+      className="sc-eCApnc cQHcgX"
+    >
+      <a
+        href="/"
+        target="_blank"
+      >
+        Login
+      </a>
+      <img
+        alt="Shopping Cart - Jussi"
+        src="shopping-cart.svg"
+      />
+    </div>
+  </div>
+</nav>
+`;

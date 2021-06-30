@@ -1,10 +1,19 @@
 import React from "react";
+import Footer from "./components/Footer/";
+import Header from "./components/Header";
+import Routes from "./routes/index";
+import GlobalStyle from "./globalStyles";
+import "@fontsource/barlow"; 
 
-// import { Container } from './styles';
-import { Container } from "./components/Footer/Footer/styles";
-
-const src: React.FC = () => {
-  return <Container>A</Container>;
+const App = () => {
+  return (
+    <>
+      <GlobalStyle />
+      <Header />
+      <Routes />
+      <Footer />
+    </>
+  );
 };
 
-export default src;
+export default App;

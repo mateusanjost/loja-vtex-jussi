@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<header
+  className="sc-bdnxRM kPkVeH"
+>
+  <div
+    className="sc-gtsrHT iKUmUO"
+  >
+    <img
+      alt="Logo Jüssi - The Business Agency"
+      src="logoJussiVectorGreen.svg"
+    />
+  </div>
+  <nav
+    className="sc-dlnjwi dJJCXy"
+  >
+     
+    <div
+      className="sc-eCApnc howTjG"
+    >
+      <a
+        href="https://jussi.com.br/services.html"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Nossas soluções
+      </a>
+      <a
+        href="https://jussi.com.br/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Conheça a Jüssi
+      </a>
+    </div>
+    <div
+      className="sc-jSFjdj cnusMS"
+    >
+      <input
+        className="sc-hKFxyN aigui"
+        placeholder="Buscar"
+        type="search"
+      />
+      <div
+        className="sc-gKAaRy djnqAS"
+      >
+        <a
+          href="/"
+          target="_blank"
+        >
+          Login
+        </a>
+        <img
+          alt="Shopping Cart - Jussi"
+          src="shopping-cart.svg"
+        />
+      </div>
+    </div>
+  </nav>
+</header>
+`;

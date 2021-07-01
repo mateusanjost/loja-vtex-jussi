@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Key } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 type A = {
   href?: string;
+  key?: Key;
 };
 
 const AComponent: React.FC<A> = (

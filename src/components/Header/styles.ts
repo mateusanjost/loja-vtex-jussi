@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Header = styled.header`
   max-height: 80px;
@@ -9,7 +9,7 @@ export const Header = styled.header`
 export const HeaderLeft = styled.div`
   align-items: center;
   display: flex;
-  @media(max-width: 1024px) {
+  @media (max-width: 1024px) {
     width: 100%;
     justify-content: center;
   }

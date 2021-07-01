@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { blackJussi } from '../../variables';
+import styled from "styled-components";
+import { blackJussi } from "../../variables";
 
 export const Footer = styled.footer`
   height: 80px;

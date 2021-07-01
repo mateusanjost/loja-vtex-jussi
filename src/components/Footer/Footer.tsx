@@ -45,17 +45,19 @@ const FooterComponent: React.FC = () => {
         />
       </Left>
       <Right>
-        {iconsSocialMedia.map((icon) => {
+        {iconsSocialMedia.map((icon, index) => {
           return (
-            <A href={icon.link}>
+            <A href={icon.link} key={index.toString()}>
             <img
               src={icon.src}
+              
               srcSet={`${icon.src}, ${icon.srcSet} 2x`}
               alt={icon.alt}
             />
             </A>
-          );
-        })}
+          )
+        })
+      }
       </Right>
     </Footer>
   );

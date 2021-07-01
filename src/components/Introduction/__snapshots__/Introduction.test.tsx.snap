@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Introduction should match snapshot 1`] = `
+<div
+  className="sc-bdnxRM euIEuB"
+>
+  <div
+    className="sc-dlnjwi gUfRTw"
+  >
+    <div
+      className="sc-gtsrHT bkRhJu"
+    >
+      CRIAMOS LOJAS QUE VENDEM MAIS
+    </div>
+    <p
+      className="sc-hKFxyN ddNQEy"
+    >
+      A Jüssi é especialista na criação de lojas usando a plataforma VTEX. Precisa criar sua loja ou migrar de plataforma?
+    </p>
+    <button
+      className="sc-fujyAs kdRgVf"
+    >
+      Veja nossas soluções
+    </button>
+  </div>
+  <div
+    className="sc-eCApnc fNQyUx"
+  >
+    <div
+      className="sc-gKAaRy dQrHqm"
+    >
+      <div
+        className="sc-iCoGMd cobULX"
+      >
+        <button
+          className="sc-fujyAs dUmHOY"
+        >
+          Mais detalhes
+        </button>
+      </div>
+    </div>
+    <div
+      className="sc-jSFjdj jLmmCx"
+    >
+      <div
+        className="sc-iCoGMd dwofpY"
+      >
+        <button
+          className="sc-fujyAs dUmHOY"
+        >
+          Comprar em 12x
+        </button>
+      </div>
+      <div
+        className="sc-iCoGMd enjqMK"
+      >
+        <button
+          className="sc-fujyAs dUmHOY"
+        >
+          Adicionar à sacola
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

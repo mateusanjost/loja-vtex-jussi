@@ -29,7 +29,7 @@ export const Introduction = styled.div`
     `
   )}
   ${map(
-    { xs: "column", sm: "column", xm: "column" },
+    { xs: "column", sm: "column", xm: "column", xd: "row", xf: "row" },
     (justifyContent) => `flex-direction: ${justifyContent};
     `
   )}
@@ -57,16 +57,11 @@ export const Left = styled.div`
     (width) => `max-width: ${width};`
   )}
   align-self: center;
-  ${map(
-    { xs: "44px", sm: "44px", xm: "44px" },
-    (fontSize) =>
-      `
+  @media (max-width: ${breakpoints.xm}px) {
     flex-direction: column;
-    align-items: center;
-    display: flex;
-    width: 80%;
-    `
-  )}
+    width: 65%;
+    align-self: center;
+  }
 `;
 
 export const P = styled.p`
@@ -81,6 +76,24 @@ export const Right = styled.div`
   align-items: center;
   ${map({ xm: "none", xd: "22%", xf: "43%" }, (width) => `width: ${width};`)}
   margin-top: -5%;
+  ${map(
+    { xs: "column", sm: "column", xm: "column", xd: "row", xf: "row" },
+    (justifyContent) => `flex-direction: ${justifyContent};
+    `
+  )}
+
+  button {
+    align-self: center;
+  }
+  @media (max-width: ${breakpoints.xm}px) {
+    display: grid;
+    margin-top: -5%;
+    -ms-flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    padding-left: 25%;
+    grid-template-columns: min-content;
+  }
 `;
 
 export const Container = styled.div`
@@ -105,6 +118,9 @@ export const ContainerLeft = styled.div`
   div {
     z-index: 1;
     top: 7vh;
+    @media (max-width: ${breakpoints.xm}px) {
+      top: 8vh;
+    }
     ${map({ xd: "18%", xf: "-24%" }, (right) => `right: ${right};`)}
   }
 `;
@@ -148,4 +164,8 @@ export const Button = styled.button<ButtonLeft>`
   cursor: pointer;
   max-width: 98%;
   align-self: center;
+  @media (max-width: ${breakpoints.xm}px) {
+    margin: 0;
+    align-self: baseline;
+  }
 `;

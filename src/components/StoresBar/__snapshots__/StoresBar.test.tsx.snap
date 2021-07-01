@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stores Bar should match snapshot 1`] = `
+<div
+  className="sc-bdnxRM eJTjuE"
+>
+  <div
+    className="sc-gtsrHT hplHCM"
+  >
+    <strong>
+      Nossas principais lojas vtex
+    </strong>
+    <b>
+      →
+    </b>
+  </div>
+  <div
+    className="sc-dlnjwi lkunRg"
+  >
+    <a
+      href="https://www.brastemp.com.br/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Brastemp Logo"
+        src="logo-brastemp1x.svg"
+        srcSet="logo-brastemp1x.svg, logo-brastemp2x.svg 2x, logo-brastemp3x.svg 3x"
+      />
+    </a>
+    <a
+      href="https://www.compracerta.com.br/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Compra certa Consul Logo"
+        src="logo-comprafacil-consul1x.svg"
+        srcSet="logo-comprafacil-consul1x.svg, logo-comprafacil-consul2x.svg 2x, logo-comprafacil-consul3x.svg 3x"
+      />
+    </a>
+    <a
+      href="https://loja.consul.com.br/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Consul Logo"
+        src="logo-consul1x.svg"
+        srcSet="logo-consul1x.svg, logo-consul2x.svg 2x, logo-consul3x.svg 3x"
+      />
+    </a>
+    <a
+      href="https://br.thebar.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="The bar Logo"
+        src="logo-thebar1x.svg"
+        srcSet="logo-thebar1x.svg, logo-thebar2x.svg 2x, logo-thebar3x.svg 3x"
+      />
+    </a>
+  </div>
+</div>
+`;

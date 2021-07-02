@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+<div
+  className="sc-hKFxyN sc-eCApnc okUlG jnHPsH"
+>
+  <div
+    className="sc-iCoGMd dnyLUa"
+  >
+    <b>
+      / /
+    </b>
+    NOSSAS SOLUÇÕES
+  </div>
+  <div
+    className="sc-jSFjdj kloxlG"
+  >
+    <div
+      className="sc-gKAaRy fSPsFX"
+    >
+      <div
+        className="sc-kEqXSa gmCBTZ"
+      >
+        <b>
+          P1
+        </b>
+      </div>
+      <div
+        className="sc-hKFxyN sc-pNWdM okUlG ggjZcS"
+      >
+        Nome do Produto #1
+      </div>
+      <div
+        className="sc-hKFxyN sc-jrsJWt okUlG fAKluN"
+      >
+        Descrição do produto #1
+      </div>
+      <div
+        className="sc-hKFxyN sc-iqAclL okUlG"
+      >
+        Feature 1
+        Feature 2
+        Feature 3
+      </div>
+      <button
+        className="sc-fujyAs jjbAlx"
+      >
+        Ver solução
+      </button>
+    </div>
+    <div
+      className="sc-gKAaRy fSPsFX"
+    >
+      <div
+        className="sc-kEqXSa gmCBTZ"
+      >
+        <b>
+          P2
+        </b>
+      </div>
+      <div
+        className="sc-hKFxyN sc-pNWdM okUlG ggjZcS"
+      >
+        Nome do Produto #2
+      </div>
+      <div
+        className="sc-hKFxyN sc-jrsJWt okUlG fAKluN"
+      >
+        Descrição do produto #2
+      </div>
+      <div
+        className="sc-hKFxyN sc-iqAclL okUlG"
+      >
+        Feature 1
+        Feature 2
+        Feature 3
+      </div>
+      <button
+        className="sc-fujyAs jjbAlx"
+      >
+        Ver solução
+      </button>
+    </div>
+    <div
+      className="sc-gKAaRy fSPsFX"
+    >
+      <div
+        className="sc-kEqXSa gmCBTZ"
+      >
+        <b>
+          P3
+        </b>
+      </div>
+      <div
+        className="sc-hKFxyN sc-pNWdM okUlG ggjZcS"
+      >
+        Nome do Produto #3
+      </div>
+      <div
+        className="sc-hKFxyN sc-jrsJWt okUlG fAKluN"
+      >
+        Descrição do produto #3
+      </div>
+      <div
+        className="sc-hKFxyN sc-iqAclL okUlG"
+      >
+        Feature 1
+        Feature 2
+        Feature 3
+      </div>
+      <button
+        className="sc-fujyAs jjbAlx"
+      >
+        Ver solução
+      </button>
+    </div>
+    <div
+      className="sc-gKAaRy fSPsFX"
+    >
+      <div
+        className="sc-kEqXSa gmCBTZ"
+      >
+        <b>
+          P4
+        </b>
+      </div>
+      <div
+        className="sc-hKFxyN sc-pNWdM okUlG ggjZcS"
+      >
+        Nome do Produto #4
+      </div>
+      <div
+        className="sc-hKFxyN sc-jrsJWt okUlG fAKluN"
+      >
+        Descrição do produto #4
+      </div>
+      <div
+        className="sc-hKFxyN sc-iqAclL okUlG"
+      >
+        Feature 1
+        Feature 2
+        Feature 3
+      </div>
+      <button
+        className="sc-fujyAs jjbAlx"
+      >
+        Ver solução
+      </button>
+    </div>
+  </div>
+</div>
+`;

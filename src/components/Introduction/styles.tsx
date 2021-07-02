@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import { createMap } from "styled-components-breakpoint";
-import { Rectangles } from "../../types";
+import { ButtonLeft, Rectangles } from "../../types";
 import { blackJussi, greenJussi, pinkJussi } from "../../variables";
-import { ButtonLeft } from "../../types/index";
+import TitleComponent from "../ui/Title/index";
+
+
 
 const breakpoints = {
   xs: 0,
@@ -35,20 +37,17 @@ export const Introduction = styled.div`
   )}
 `;
 
-export const Title = styled.div`
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 500;
-  ${map(
-    { xs: "44px", sm: "44px", xm: "44px", xd: "44px", xf: "64px" },
-    (fontSize) => `font-size: ${fontSize};`
-  )}
-  line-height: 77px;
-  text-transform: uppercase;
-  ${map(
-    { xm: "none", xd: "64%", xf: "47%" },
-    (width) => `max-width: ${width};`
-  )}
+export const IntroductionTitle = styled(TitleComponent)`
+  & {
+    ${map(
+      { xs: "44px", sm: "44px", xm: "44px", xd: "44px", xf: "64px" },
+      (fontSize) => `font-size: ${fontSize};`
+    )}
+    ${map(
+      { xm: "none", xd: "64%", xf: "47%" },
+      (width) => `max-width: ${width};`
+    )}
+  }
 `;
 
 export const Left = styled.div`
@@ -146,6 +145,7 @@ export const Rectangle = styled.div<Rectangles>`
   right: ${(props) => (!props.left ? "-80px" : "16%")};
   z-index: ${(props) => (!props.left ? "2" : "3")};
 `;
+
 
 export const Button = styled.button<ButtonLeft>`
   background: ${(props) => (props.left ? "transparent" : "#fff")};

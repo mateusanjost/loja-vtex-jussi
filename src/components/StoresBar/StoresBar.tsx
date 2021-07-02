@@ -18,7 +18,7 @@ import theBarLogo1x from "../../assets/icons/logo-thebar1x.svg";
 import theBarLogo2x from "../../assets/icons/logo-thebar2x.svg";
 import theBarLogo3x from "../../assets/icons/logo-thebar3x.svg";
 
-import A from "../A";
+import A from "../ui/A";
 
 const StoresBarComponent: React.FC = () => {
   const theBarLogos = [

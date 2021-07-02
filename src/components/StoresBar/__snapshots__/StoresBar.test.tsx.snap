@@ -2,10 +2,10 @@
 
 exports[`Stores Bar should match snapshot 1`] = `
 <div
-  className="sc-bdnxRM eJTjuE"
+  className="sc-bdnxRM bchSEM"
 >
   <div
-    className="sc-gtsrHT hplHCM"
+    className="sc-gtsrHT jDZlgE"
   >
     <strong>
       Nossas principais lojas vtex
@@ -15,7 +15,7 @@ exports[`Stores Bar should match snapshot 1`] = `
     </b>
   </div>
   <div
-    className="sc-dlnjwi lkunRg"
+    className="sc-dlnjwi dwFgys"
   >
     <a
       href="https://www.brastemp.com.br/"

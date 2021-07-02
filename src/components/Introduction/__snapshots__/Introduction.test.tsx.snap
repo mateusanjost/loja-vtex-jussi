@@ -5,10 +5,10 @@ exports[`Introduction should match snapshot 1`] = `
   className="sc-bdnxRM esbENp"
 >
   <div
-    className="sc-dlnjwi igetUq"
+    className="sc-dlnjwi cITVtS"
   >
     <div
-      className="sc-gtsrHT vuhPC"
+      className="sc-gtsrHT bFJHrL"
     >
       CRIAMOS LOJAS QUE VENDEM MAIS
     </div>
@@ -18,22 +18,22 @@ exports[`Introduction should match snapshot 1`] = `
       A Jüssi é especialista na criação de lojas usando a plataforma VTEX. Precisa criar sua loja ou migrar de plataforma?
     </p>
     <button
-      className="sc-fujyAs kndOdB"
+      className="sc-fujyAs fgQJVB"
     >
       Veja nossas soluções
     </button>
   </div>
   <div
-    className="sc-eCApnc dFwxYQ"
+    className="sc-eCApnc uIFuc"
   >
     <div
-      className="sc-gKAaRy ckNcYv"
+      className="sc-gKAaRy Qhblr"
     >
       <div
         className="sc-iCoGMd cobULX"
       >
         <button
-          className="sc-fujyAs hPsIfG"
+          className="sc-fujyAs cTXVKe"
         >
           Mais detalhes
         </button>
@@ -46,7 +46,7 @@ exports[`Introduction should match snapshot 1`] = `
         className="sc-iCoGMd dwofpY"
       >
         <button
-          className="sc-fujyAs hPsIfG"
+          className="sc-fujyAs cTXVKe"
         >
           Comprar em 12x
         </button>
@@ -55,7 +55,7 @@ exports[`Introduction should match snapshot 1`] = `
         className="sc-iCoGMd enjqMK"
       >
         <button
-          className="sc-fujyAs hPsIfG"
+          className="sc-fujyAs cTXVKe"
         >
           Adicionar à sacola
         </button>

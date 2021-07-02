@@ -2,23 +2,22 @@ import React from "react";
 import {
   Introduction,
   P,
-  Title,
   Left,
   Rectangle,
   Right,
-  Button,
   Container,
   ContainerLeft,
+  IntroductionTitle,
+  Button
 } from "./styles";
 import Fridge from "../../assets/images/rectangleFridge.webp";
 import Scout from "../../assets/images/rectangleScout.webp";
 import Whisky from "../../assets/images/rectangleWhisky.webp";
-
 const IntroductionComponent: React.FC = () => {
   return (
     <Introduction>
       <Left>
-        <Title>CRIAMOS LOJAS QUE VENDEM MAIS</Title>
+        <IntroductionTitle>CRIAMOS LOJAS QUE VENDEM MAIS</IntroductionTitle>
         <P>
           A Jüssi é especialista na criação de lojas usando a plataforma VTEX.
           Precisa criar sua loja ou migrar de plataforma?

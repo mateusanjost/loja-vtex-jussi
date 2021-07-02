@@ -4,6 +4,8 @@ export const Header = styled.header`
   max-height: 80px;
   display: flex;
   margin: 20px 24px;
+  z-index: 3;
+  position: relative;
 `;
 
 export const HeaderLeft = styled.div`

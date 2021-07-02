@@ -2,7 +2,7 @@
 
 exports[`Header should match snapshot 1`] = `
 <header
-  className="sc-bdnxRM kPkVeH"
+  className="sc-bdnxRM eAqRyg"
 >
   <div
     className="sc-gtsrHT jhGouW"
@@ -39,8 +39,10 @@ exports[`Header should match snapshot 1`] = `
     >
       <input
         className="sc-hKFxyN fjIaEa"
+        onChange={[Function]}
+        onKeyPress={[Function]}
         placeholder="Buscar"
-        type="search"
+        type="text"
       />
       <div
         className="sc-gKAaRy ofenq"
@@ -51,7 +53,7 @@ exports[`Header should match snapshot 1`] = `
         >
           <a>
             <div>
-                Login
+               Login
             </div>
           </a>
         </a>

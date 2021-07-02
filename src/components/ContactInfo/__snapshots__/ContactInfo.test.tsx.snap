@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Info should match snapshot 1`] = `
+<div
+  className="sc-hKFxyN sc-eCApnc okUlG fQyHhC"
+>
+  <div
+    className="sc-hKFxyN sc-iCoGMd okUlG dNAIIn"
+  >
+    <div
+      className="sc-gtsrHT sc-jSFjdj lejSiq dgNssm"
+    >
+      Essa loja foi construída usando uma das nossas soluções da plataforma VTEX. tenha a sua.
+    </div>
+    <div
+      className="sc-gtsrHT sc-jSFjdj lejSiq dgNssm"
+    >
+       
+      <div
+        className="sc-bdnxRM sc-gKAaRy cHGDwy"
+      >
+        Entre em contato
+      </div>
+      <a
+        href="mailto:comercial@jussi.com.br"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        comercial@jussi.com.br
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -2,6 +2,7 @@
   "name": "loja-vtex-jussi",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@fontsource/barlow": "^4.4.5",
     "@testing-library/jest-dom": "^5.11.4",
@@ -12,8 +13,15 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-router": "^5.1.15",
     "@types/react-router-dom": "^5.1.7",
+    "apicache": "^1.6.2",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-lazyload": "^3.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-test-renderer": "^17.0.2",
@@ -27,7 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "madge": "madge  --image ./madge-graph.svg --extensions js,jsx,ts,tsx --circular .",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev:server": "node server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +59,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.5",
     "@types/react": "^17.0.11",
+    "@types/react-lazyload": "^3.1.0",
     "@types/react-test-renderer": "^17.0.1",
     "@types/styled-components": "^5.1.10"
   }

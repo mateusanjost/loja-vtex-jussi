@@ -8,11 +8,19 @@ export const Container = styled(autoLayout)`
   background: #fff;
   height: 557px;
   justify-content: space-evenly;
+  @media (max-width: 767px) {
+    height: auto;
+    padding-top: 10%;
+  }
 `;
 
 export const Center = styled.div`
   display: flex;
   justify-content: space-evelyn;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin: 5%;
+  }
 `;
 
 export const Box = styled.div`
@@ -28,6 +36,9 @@ export const Box = styled.div`
   justify-content: space-around;
   align-items: flex-start;
   padding: 2%;
+  @media (max-width: 767px) {
+    margin-bottom: 8%;
+  }
 `;
 
 export const Title = styled.div`
@@ -91,4 +102,12 @@ export const Elipse = styled.div`
   align-items: center;
 `;
 
-export const List = styled(autoLayout)``;
+export const List = styled(autoLayout)`
+  & {
+    flex-direction: column;
+  }
+  ul,
+  li {
+    line-height: 0;
+  }
+`;

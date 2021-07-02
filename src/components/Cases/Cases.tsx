@@ -36,7 +36,17 @@ const CasesComponent: React.FC = () => {
               </Elipse>
               <NameProduct>{data.name}</NameProduct>
               <DescProduct>{data.description}</DescProduct>
-              <List>{data.features}</List>
+              
+                {Object.values(data.features).map((feature) => {
+                  return (
+                    <ul>
+                    <List>
+                      <li>{feature}</li>
+                      </List>
+                      </ul>
+                  );
+                })}
+              
               <Button left={true}>Ver solução</Button>
             </Box>
           );

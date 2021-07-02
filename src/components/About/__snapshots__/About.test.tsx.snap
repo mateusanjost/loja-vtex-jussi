@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+<div
+  className="sc-hKFxyN sc-eCApnc okUlG dcdZif"
+>
+  <div
+    className="sc-hKFxyN sc-iCoGMd okUlG jmwWuu"
+  >
+    <div
+      className="sc-jSFjdj ibkeYF"
+    >
+      OLÁ, SOMOS 
+      <br />
+      A JÜSSI
+    </div>
+    <p
+      className="sc-gKAaRy jdFlYA"
+    >
+      A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente para Produtos Digitais é organizada em 6 especialidades: Product Managamenet, User Experience Design, SEO, Tecnologia, Agile e User Behavior Analytics.
+    </p>
+  </div>
+  <img
+    alt="Jussi"
+    src="image-jussi2x.jpg"
+  />
+  <div
+    className="sc-pNWdM euMegm"
+  />
+</div>
+`;

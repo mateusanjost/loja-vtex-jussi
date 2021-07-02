@@ -11,7 +11,7 @@ import instagramLogo2x from "../../assets/icons/instagram2x.svg";
 
 import linkedinLogo1x from "../../assets/icons/linkedin1x.svg";
 import linkedinLogo2x from "../../assets/icons/linkedin2x.svg";
-import A from "../A";
+import A from "../ui/A";
 
 const FooterComponent: React.FC = () => {
   const iconsSocialMedia = [
@@ -48,16 +48,14 @@ const FooterComponent: React.FC = () => {
         {iconsSocialMedia.map((icon, index) => {
           return (
             <A href={icon.link} key={index.toString()}>
-            <img
-              src={icon.src}
-              
-              srcSet={`${icon.src}, ${icon.srcSet} 2x`}
-              alt={icon.alt}
-            />
+              <img
+                src={icon.src}
+                srcSet={`${icon.src}, ${icon.srcSet} 2x`}
+                alt={icon.alt}
+              />
             </A>
-          )
-        })
-      }
+          );
+        })}
       </Right>
     </Footer>
   );

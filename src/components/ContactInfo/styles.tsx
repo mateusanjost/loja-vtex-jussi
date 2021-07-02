@@ -14,6 +14,7 @@ export const Title = styled(textLarge)`
   & {
     @media (min-width: 1000px) {
       max-width: 37%;
+      min-width: 676px;
     }
     display: flex;
     flex-direction: column;
@@ -21,6 +22,9 @@ export const Title = styled(textLarge)`
     text-align: center;
     height: 10vh;
     justify-content: flex-end;
+    @media (max-width: 770px) {
+      font-size: 1.5rem;
+    }
   }
 
   a {
@@ -28,6 +32,9 @@ export const Title = styled(textLarge)`
     text-decoration: none;
     font-size: 2rem;
     text-transform: lowercase;
+    @media (max-width: 770px) {
+      font-size: 1.5rem;
+    }
   }
 `;
 

@@ -28,8 +28,10 @@ exports[`Navbar should match snapshot 1`] = `
   >
     <input
       className="sc-gtsrHT jVDMiC"
+      onChange={[Function]}
+      onKeyPress={[Function]}
       placeholder="Buscar"
-      type="search"
+      type="text"
     />
     <div
       className="sc-eCApnc hmDsgX"
@@ -40,7 +42,7 @@ exports[`Navbar should match snapshot 1`] = `
       >
         <a>
           <div>
-              Login
+             Login
           </div>
         </a>
       </a>

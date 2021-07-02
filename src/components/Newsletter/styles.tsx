@@ -47,7 +47,9 @@ export const Center = styled(autoLayout)`
 `;
 
 export const Form = styled.form`
-  width: 502px;
+  @media (min-width: 1000px) {
+    width: 502px;
+  }
   height: 60px;
   display: flex;
   border-bottom: 1px solid #03ffa5;

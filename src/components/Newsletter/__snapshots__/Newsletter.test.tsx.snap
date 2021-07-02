@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Newsletter should match snapshot 1`] = `
+<div
+  className="sc-hKFxyN sc-eCApnc okUlG hNAVpI"
+>
+  <div
+    className="sc-hKFxyN sc-fujyAs okUlG jebvdG"
+  >
+    <div
+      className="sc-gtsrHT sc-jSFjdj lejSiq bChOrd"
+    >
+      receba novidades da nossa área de produtos digitais.
+    </div>
+    <div
+      className="sc-gtsrHT sc-jSFjdj lejSiq bChOrd"
+    >
+       
+      <form
+        className="sc-pNWdM hEEKuF"
+      >
+        <input
+          className="sc-kEqXSa BdmAb"
+          type="text"
+          value="Digite seu e-mail"
+        />
+        <button
+          className="sc-jrsJWt bYVrbb"
+          disabled={true}
+        >
+          CADASTRAR
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

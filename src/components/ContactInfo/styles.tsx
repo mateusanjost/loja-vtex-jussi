@@ -27,6 +27,7 @@ export const Title = styled(textLarge)`
     color: white;
     text-decoration: none;
     font-size: 2rem;
+    text-transform: lowercase;
   }
 `;
 

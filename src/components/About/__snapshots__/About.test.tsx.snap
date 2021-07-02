@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Footer should match snapshot 1`] = `
+exports[`About should match snapshot 1`] = `
 <div
   className="sc-hKFxyN sc-eCApnc okUlG dcdZif"
 >

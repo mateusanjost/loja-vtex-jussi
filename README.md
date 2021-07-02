@@ -63,3 +63,6 @@ and "homolog"
 I didn't have time to implement lazyImage in the project, but the component itself is ready and inside the folder's UI
 
 
+### SERVER
+Internal CORS Anywhere server started at port 5000 and
+External 8000

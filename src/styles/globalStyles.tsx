@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import './mixins';
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;

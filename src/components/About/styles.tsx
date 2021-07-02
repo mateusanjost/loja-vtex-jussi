@@ -15,6 +15,13 @@ export const ContainerAbout = styled(autoLayout)`
     order: 3;
     z-index: 5;
     position: relative;
+    @media (max-width: 776px) {
+      order: 1;
+    }
+  }
+  @media (max-width: 776px) {
+    flex-direction: column;
+    height: auto;
   }
 `;
 
@@ -25,6 +32,7 @@ export const Title = styled.div`
   font-size: 32px;
   line-height: 40px;
   width: 50%;
+  min-width: 241px;
 `;
 
 export const P = styled.p`
@@ -36,6 +44,11 @@ export const Container = styled(autoLayout)`
   & {
     width: 25%;
     order: 1;
+    @media (max-width: 776px) {
+      order: 2;
+      height: 50vh;
+      justify-content: center;
+    }
   }
 `;
 

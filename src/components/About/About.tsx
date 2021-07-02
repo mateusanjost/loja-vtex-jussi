@@ -23,7 +23,7 @@ const AboutComponent: React.FC = () => {
       </Container>
 
       <img src={JussiAbout} alt={"Jussi"}></img>
-      <Background></Background>
+      {window.innerWidth > 776 ? <Background></Background> : null}
     </ContainerAbout>
   );
 };

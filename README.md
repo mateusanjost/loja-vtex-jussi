@@ -67,6 +67,6 @@ I didn't have time to implement lazyImage in the project, but the component itse
 Internal CORS Anywhere server started at port 5000 and
 External 8000
 
-Warning: 
+### Warning: 
 I didn't have time to maintain default breakpoints on stylized components; \
 Notify me to remove API key after evaluation
